@@ -1,0 +1,11 @@
+<?xml version="1.0"?> 
+<sharpUpdate> 
+    <update> 
+        <version>2.0.0.0</version> 
+        <url>https://www.arafa-smart-eng.com/Test/blob/ffe49a1c55da862ed82ea6c84af73e77617d474e/TestApp.exe</url> 
+        <filePath>./TestApp.exe</filePath>
+        <md5>5857188A507EAFC9414E6062180C8682</md5>
+        <description>Test To Update</description> 
+        <launchArgs></launchArgs> 
+    </update>
+</sharpUpdate>
