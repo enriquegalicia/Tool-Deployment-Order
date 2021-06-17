@@ -2,18 +2,10 @@
 <sharpUpdate> 
     <update> 
         <version>2.0.0.0</version> 
-        <url>https://github.com/Omararafa/Test/blob/main/WpfApp1.exe?raw=true</url> 
-        <filePath>./WpfApp1.exe</filePath>
+        <url>https://github.com/Omararafa/Test/blob/main/WindowsFormsApp1.exe?raw=true</url> 
+        <filePath>./WindowsFormsApp1.exe</filePath>
         <md5>5857188A507EAFC9414E6062180C8682</md5>
         <description>App One Test To Updateee</description> 
-        <launchArgs></launchArgs> 
-    </update>
-    <update> 
-        <version>2.0.0.0</version> 
-        <url>https://github.com/Omararafa/Test/blob/main/WpfApp1.dll?raw=true</url> 
-        <filePath>./WpfApp1.dll</filePath>
-        <md5>5857188A507EAFC9414E6062180C8682</md5>
-        <description>App Two Test To Updateee</description> 
         <launchArgs></launchArgs> 
     </update>
 </sharpUpdate>
