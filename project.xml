@@ -3,7 +3,7 @@
     <update> 
         <version>2.0.0.0</version> 
         <url>https://github.com/Omararafa/Test/blob/main/WpfApp1.exe?raw=true</url> 
-        <filePath>%AppData%\Autodesk\REVIT\Addins\2018\AppOne\WpfApp1.exe</filePath>
+        <filePath>%AppData%\Autodesk\REVIT\Addins\2018\AppOne/WpfApp1.exe</filePath>
         <md5>5857188A507EAFC9414E6062180C8682</md5>
         <description>App One Test To Updateee</description> 
         <launchArgs></launchArgs> 
