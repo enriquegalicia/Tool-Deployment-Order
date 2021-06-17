@@ -2,8 +2,8 @@
 <sharpUpdate> 
     <update> 
         <version>2.0.0.0</version> 
-        <url>https://github.com/Omararafa/Test/blob/main/TestApp.exe?raw=true</url> 
-        <filePath>./TestApp.exe</filePath>
+        <url>https://github.com/Omararafa/Test/blob/main/WpfApp1.exe?raw=true</url> 
+        <filePath>./WpfApp1.exe</filePath>
         <md5>5857188A507EAFC9414E6062180C8682</md5>
         <description>Test To Updateee</description> 
         <launchArgs></launchArgs> 
