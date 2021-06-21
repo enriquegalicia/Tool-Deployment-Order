@@ -54,7 +54,7 @@
     <update>
       <version>1.0.0.1</version>
       <url>https://github.com/Omararafa/Tool-Deployment-Order/blob/main/Deployer%20Tool/SharpUpdate.dll?raw=true</url>
-      <filePath>%ProgramFiles(x86)%\Deployer Tool\SharpUpdate.dll</filePath>
+      <filePath>%ProgramFiles(x86)%\Deployer Tool\Updater.dll</filePath>
       <md5>5857188A507EAFC9414E6062180C8682</md5>
       <description>sharp update</description>
       <launchArgs></launchArgs>
