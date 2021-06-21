@@ -38,7 +38,7 @@
     <update>
       <version>1.0.0.1</version>
       <url>https://github.com/Omararafa/Tool-Deployment-Order/blob/main/Deployer%20Tool/Deployer.exe?raw=true</url>
-      <filePath>%ProgramFiles(x86)%\Deployer Tool\Deployer.exe</filePath>
+      <filePath>%LocalAppData%\Deployer Tool\Deployer.exe</filePath>
       <md5>5857188A507EAFC9414E6062180C8682</md5>
       <description>Deployer Program update added</description>
       <launchArgs></launchArgs>
@@ -46,7 +46,7 @@
     <update>
       <version>1.0.0.1</version>
       <url>https://github.com/Omararafa/Tool-Deployment-Order/blob/main/Deployer%20Tool/Updater.dll?raw=true</url>
-      <filePath>%ProgramFiles(x86)%\Deployer Tool\Updater.dll</filePath>
+      <filePath>%LocalAppData%\Deployer Tool\Updater.dll</filePath>
       <md5>5857188A507EAFC9414E6062180C8682</md5>
       <description>sharp update</description>
       <launchArgs></launchArgs>
