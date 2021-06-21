@@ -32,4 +32,12 @@
         <description>Synchronization Modification</description> 
         <launchArgs></launchArgs> 
     </update>
+    <add> 
+        <version>1.0.0.1</version> 
+        <url>https://github.com/Omararafa/Tool-Deployment-Order/blob/main/Smart%20Design%20Plug-in%20Updates/WindowsFormsApp1.exe?raw=true</url> 
+        <filePath>%AppData%\Autodesk\Revit\Addins\2019\Smart Design Plug-in Updates\WindowsFormsApp1.exe</filePath>
+        <md5>5857188A507EAFC9414E6062180C8682</md5>
+        <description>test add</description> 
+        <launchArgs></launchArgs> 
+    </add>
 </SmartDesignUpdate>
