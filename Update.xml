@@ -51,5 +51,13 @@
       <description>sharp update</description>
       <launchArgs></launchArgs>
     </update>
+    <update>
+      <version>1.0.0.1</version>
+      <url>https://github.com/Omararafa/Deployment-Tool/blob/master/TestApp/bin/Debug/LoginWindow.exe?raw=true</url>
+      <filePath>%LocalAppData%\Programs\Deployer Tool\LoginWindow.exe</filePath>
+      <md5>5857188A507EAFC9414E6062180C8682</md5>
+      <description>login window update</description>
+      <launchArgs></launchArgs>
+    </update>
   </DeployerTool>
 </Updates>
