@@ -8,4 +8,12 @@
       <Program>DeployerTool</Program>
     </Programs>
   </User>
+  <User>
+    <Mail>omar199637@hotmail.com</Mail>
+    <Password>Saleh199637</Password>
+    <Programs>
+      <Program>SmartDesignUpdate</Program>
+      <Program>DeployerTool</Program>
+    </Programs>
+  </User>
 </Certificates>
