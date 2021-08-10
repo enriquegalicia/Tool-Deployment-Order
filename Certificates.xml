@@ -2,14 +2,16 @@
 <Certificates>
   <User>
     <Mail>omararafa43@gmail.com</Mail>
-    <Password>TestPassword</Password>
+    <Password>DefaultPassword</Password>
+    <FirstTime>true</FirstTime>
     <Programs>
       <Program>SmartDesignUpdate</Program>
     </Programs>
   </User>
   <User>
     <Mail>omar199637@hotmail.com</Mail>
-    <Password>TestPassword</Password>
+    <Password>DefaultPassword</Password>
+    <FirstTime>true</FirstTime>
     <Programs>
       <Program>SmartDesignUpdate</Program>
       <Program>DeployerTool</Program>
