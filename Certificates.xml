@@ -10,8 +10,8 @@
   </User>
   <User>
     <Mail>omar199637@hotmail.com</Mail>
-    <Password>ABtNpHo65LUN5QVe</Password>
-    <FirstTime>true</FirstTime>
+    <Password>Test1996</Password>
+    <FirstTime>false</FirstTime>
     <Programs>
       <Program>SmartDesignUpdate</Program>
       <Program>DeployerTool</Program>
