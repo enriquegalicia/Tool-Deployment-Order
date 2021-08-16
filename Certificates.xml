@@ -17,4 +17,13 @@
       <Program>DeployerTool</Program>
     </Programs>
   </User>
+  <User>
+    <Mail>sam.williams@ra.house</Mail>
+    <Password>1234</Password>
+    <FirstTime>true</FirstTime>
+    <Programs>
+      <Program>SmartDesignUpdate</Program>
+      <Program>DeployerTool</Program>
+    </Programs>
+  </User>
 </Certificates>
