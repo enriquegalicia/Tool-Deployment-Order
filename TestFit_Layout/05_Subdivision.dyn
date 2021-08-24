@@ -375,7 +375,7 @@
     {
       "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
       "NodeType": "PythonScriptNode",
-      "Code": "# Load the Python Standard and DesignScript Libraries\r\nimport sys\r\nsys.path.append(r\"C:\\BIM\\RA\")\r\nfrom ModClass import *\r\nfrom CielForms import *\r\nimport clr\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\n\r\n# The inputs to this node will be stored as a list in the IN variables.\r\nName=IN[0]\r\nPoint=IN[1]\r\nWidth=IN[2]\r\nLength=IN[3] \r\nHeigth=IN[4] \r\nCIRCS=IN[5] \r\nSURFS=[] \r\nfor a in CIRCS:\r\n\tSURFS.append(Surface.ByLoft([a[1],a[2]]))\r\n\r\nMAC=selfmacro(Name,Point,Length,Width,Heigth,0) \r\nINTS=[]\r\nfor a in SURFS:\r\n\tif a.DoesIntersect(MAC.SOL): \r\n\t\tINTS.append(a)\t\r\nRESULT=MACCONFIG(Name,MAC,INTS)     \r\nMAC1=RESULT[0]\r\n \r\nALLGEOS=[] \r\nALLNAMES=[]\r\nALLORIGINS=[] \r\nWS=[]\r\nHS=[]\r\nLS=[]\r\nfor a,b in zip(MAC1,range(len(MAC1))):\r\n\ta.IOF=b+1\r\n\tALLGEOS.append(a.SOL)\r\n\tALLNAMES.append(a.NAM)\r\n\tALLORIGINS.append(a.ORI) \r\n\tWS.append(a.WID)\r\n\tLS.append(a.LEN)\r\n\tHS.append(a.HEI)\r\n\t\r\n\t\r\n# Assign your output to the OUT variable.\r\nOUT = ALLGEOS,ALLGEOS,ALLNAMES,ALLORIGINS,WS,LS,HS,MAC1     \r\n\r\n  ",
+      "Code": "# Load the Python Standard and DesignScript Libraries\r\nimport sys,os\r\nfrom os import path\r\ndumps_dir = path.expandvars(r'%LOCALAPPDATA%\\Programs\\RA\\BIMRA')\r\nsys.path.append(dumps_dir)\r\nfrom ModClass import *\r\nfrom RAForms import *\r\nfrom LayFit import *\r\nimport clr\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\n\r\n# The inputs to this node will be stored as a list in the IN variables.\r\nName=IN[0]\r\nPoint=IN[1]\r\nWidth=IN[2]\r\nLength=IN[3] \r\nHeigth=IN[4] \r\nCIRCS=IN[5] \r\nSURFS=[] \r\nfor a in CIRCS:\r\n\tSURFS.append(Surface.ByLoft([a[1],a[2]]))\r\n\r\nMAC=selfmacro(Name,Point,Length,Width,Heigth,0) \r\nINTS=[]\r\nfor a in SURFS:\r\n\tif a.DoesIntersect(MAC.SOL): \r\n\t\tINTS.append(a)\t\r\nRESULT=MACCONFIG(Name,MAC,INTS)     \r\nMAC1=RESULT[0]\r\n \r\nALLGEOS=[] \r\nALLNAMES=[]\r\nALLORIGINS=[] \r\nWS=[]\r\nHS=[]\r\nLS=[]\r\nfor a,b in zip(MAC1,range(len(MAC1))):\r\n\ta.IOF=b+1\r\n\tALLGEOS.append(a.SOL)\r\n\tALLNAMES.append(a.NAM)\r\n\tALLORIGINS.append(a.ORI) \r\n\tWS.append(a.WID)\r\n\tLS.append(a.LEN)\r\n\tHS.append(a.HEI)\r\n\t\r\n\t\r\n# Assign your output to the OUT variable.\r\nOUT = ALLGEOS,ALLGEOS,ALLNAMES,ALLORIGINS,WS,LS,HS,MAC1     \r\n\r\n  ",
       "VariableInputPorts": true,
       "Id": "c8d88fa3129a4df0ae66c40b14794bd3",
       "Inputs": [
@@ -1688,8 +1688,8 @@
       }
     ],
     "Annotations": [],
-    "X": 140.65285471983907,
-    "Y": -178.56762353197411,
+    "X": -67.347145280160817,
+    "Y": -231.56762353197411,
     "Zoom": 0.52312903096654473
   }
 }
